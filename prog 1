@@ -1,0 +1,15 @@
+strings=input("enter a string:")
+print("uppercase:",strings.upper())
+print("lowercase:",strings.lower())
+reverse=" "
+for ch in strings:
+    reverse=ch+reverse
+    
+print ("reversed",reverse)
+vowels="AEIOUaeiou"
+count=0
+for ch in strings:
+    if ch in vowels:
+        count+=1
+    
+print ("no. of vowels:",count)
