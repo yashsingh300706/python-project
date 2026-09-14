@@ -1,0 +1,4 @@
+string=input("enter a string:")
+print("first three character",string[:3])
+print ("last two character",string[-2:])
+print("reverse using slicing:",string[::-1])
