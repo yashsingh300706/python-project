@@ -1,14 +1,6 @@
-sentence=input("enter a sentence: ")
-words=[]
-temp=" "
-for ch in sentence:
-    if ch==" ":
-        if temp!="":
-            words=words+[temp]
-            temp=""
-    else:
-        temp=temp+ch
-if temp!="":
-    words=words+[temp]
-frequency={}
-order=[]
+numbers=list(map(int,input("enter integers separated by spaces:").split()))
+unique=[]
+for n in numbers:
+    if n not in unique:
+        unique,append(n)
+        print ("list without duplicate:",unique)
